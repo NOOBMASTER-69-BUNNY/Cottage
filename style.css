@@ -145,7 +145,7 @@ input[type="checkbox"] {
   opacity: 1;
 }
 
-.card:hover .card-body{
+.card:hover .card-body {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -786,7 +786,7 @@ h3 {
 }
 
 .cardWrap {
-  margin: 1.5%;
+  margin: 1ch;
   -webkit-transform: perspective(800px);
   transform: perspective(800px);
   -webkit-transform-style: preserve-3d;
@@ -924,4 +924,47 @@ h3 {
   font-size: 36px;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+}
+
+/** Modal css**/
+.photo-gallery {
+  color: #313437;
+  background-color: #fff;
+}
+
+.photo-gallery p {
+  color: #7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
 }
